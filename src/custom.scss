@@ -1,0 +1,30 @@
+$primary:  #131921;
+$warning: #F3A847;
+$info: #FFA41C;
+// Header
+// $navbar-toggler-border-radius: $btn-border-radius;
+$input-border-radius:                   1px;
+$input-border-radius-sm:                1px;
+$input-border-radius-lg:                1px;
+
+.nav-item>a{
+    color: white
+}
+.home-image{
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+// checkout img
+.checkout-image {
+    height: 150px;
+    overflow: hidden;
+}
+
+.checkout-image img {
+    width: 400px;
+    height: 300px;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
