@@ -37,14 +37,14 @@ const Login = () => {
 
     return (
         <div className="container text-center pt-5">
-             <Link className="navbar-brand" to="/">
+             <Link className="" to="/">
                 <img src={svg} width="200" className=""  alt=""/>
             </Link>
-            <div className="card w-25 mx-auto mt-3">
+            <div className="card w-sm-75 w-md-50 w-lg-25 mx-auto mt-5 mt-sm-3">
                 <div className="card-body">
                     <form>
 
-                        <h3 className="text-start">Sign in</h3>
+                        <h3 className="text-center text-sm-start ">Sign in</h3>
                     <div className="mb-3 text-start mt-3">
                             <label htmlFor="email" className="form-label ms-2 fw-bolder">E-mail</label>
                             <input type="email" className="form-control" id="email" value={email} onChange={e => setEmail(e.target.value)}/>

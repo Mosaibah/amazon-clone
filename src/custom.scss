@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 $primary:  #131921;
 $warning: #F3A847;
 $info: #FFA41C;
@@ -7,7 +12,7 @@ $input-border-radius:                   1px;
 $input-border-radius-sm:                1px;
 $input-border-radius-lg:                1px;
 
-.nav-item>a{
+.nav-ul> *>*>*>*{
     color: white
 }
 .home-image{
@@ -26,4 +31,30 @@ $input-border-radius-lg:                1px;
     width: 400px;
     height: 300px;
 }
+$utilities: (
+  "width": (
+    property: width,
+    responsive: true,
+    class: w,
+    values: (
+      25: 25%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto
+    )
+  ),
+  "height": (
+    property: height,
+    responsive: true,
+    class: h,
+    values: (
+      25: 25%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto
+    )
+  ),
+);
 @import '../node_modules/bootstrap/scss/bootstrap.scss';

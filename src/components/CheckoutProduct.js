@@ -14,13 +14,13 @@ const CheckoutProduct = ({ item }) => {
   };
 
   return (
-    <div className="row mb-3">
+    <div className="row mb-5 mb-sm3 text-center text-sm-start">
       <>
-        <div className="col-3">
+        <div className="col-12  col-sm-3">
           <img style={{ width: 100, height: 100 }} src={image} alt="" />
         </div>
-        <div className="col-9">
-          <p className="fs-6">{title}</p>
+        <div className="col-sm-9">
+          <p className="fs-6 pt-2 pt-sm-0">{title}</p>
           <div className="">${price}</div>
           <div className="">
             {Array(rating)
@@ -29,7 +29,7 @@ const CheckoutProduct = ({ item }) => {
                 <i key={i} className="bi bi-star-fill text-info"></i>
               ))}
           </div>
-          <div className="btn btn-warning mt-3 mx-2 btn-sm" onClick={removeFromBasket}>Remove from basket</div>
+          <div className="btn btn-warning mt-2 mt-sm-3 mx-2 btn-sm" onClick={removeFromBasket}>Remove from basket</div>
         </div>
       </>
     </div>

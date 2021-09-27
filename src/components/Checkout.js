@@ -11,12 +11,12 @@ const Checkout = () => {
         <div className="container">
             <div className="row mt-3 mb-5">
 
-                <div className="col-8 ">
+                <div className="col-sm-8 ">
                     <div className="checkout-image">
                         <img src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" className="w-100"  alt="" />
                     </div>
 
-                        <h2 className="border-bottom border-muted border-2 pb-3 mt-3 mb-4">
+                        <h2 className="border-bottom border-muted border-2 pb-3 mt-3 mb-4 text-center text-sm-start">
                             Your Shopping Basket
                         </h2>
                         {
@@ -30,7 +30,7 @@ const Checkout = () => {
                         }
                 </div>
 
-                <div className="col-4">
+                <div className="col-sm-4">
                     <Subtotal/>
                 </div>
 
