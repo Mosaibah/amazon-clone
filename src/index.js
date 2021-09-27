@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import './custom.scss';
+import './custom.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { StateProvider } from './StateProvider';

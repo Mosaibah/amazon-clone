@@ -39,7 +39,7 @@ const Header = () => {
                   <Link className="nav-link active py-0 " to={!user && "login"}>
                     <div onClick={handleAuthentication}>
                       <span style={{fontSize: 10}} className="d-block ">
-                          Hello, {user?.email}
+                          Hello {user?.email}
                       </span>
                     <span className="mt-0 pt-0">{user ? 'Signout': "Sign in"}</span>
                     </div>
